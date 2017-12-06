@@ -19,6 +19,15 @@ html,body{
     transition: all 0.2s;
     animation: change 0.2s infinite;
 }
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid gold;
+    background: linear-gradient(to right,skyblue,gold);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 @keyframes change{
     50%{
     background: radial-gradient(at center,red,gold);
